@@ -75,7 +75,7 @@ A custom Minecraft 1.8.9 client project with its own core systems, UI, networkin
 <div align="center">
 
 <a href="https://discord.com">
-  <img src="https://lanyard.cnrad.dev/api/YOUR_DISCORD_USER_ID?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&borderRadius=12px" width="420" alt="Discord Status">
+  <img src="https://lanyard.cnrad.dev/api/667698138588381186?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&borderRadius=12px" width="420" alt="Discord Status">
 </a>
 
 </div>
