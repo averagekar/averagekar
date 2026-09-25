@@ -45,33 +45,13 @@ A custom Minecraft 1.8.9 client project with its own core systems, UI, networkin
 ## Technologies
 
 <div align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" alt="Java">
-
-  
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" width="40" alt="Gradle">
-
-  
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" alt="Git">
-
-  
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" alt="GitHub">
-
-  
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" alt="IntelliJ IDEA">
-
-  
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" alt="Linux">
-
-  
-
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" alt="Java">&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" width="40" alt="Gradle">&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" alt="Git">&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" alt="GitHub">&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" alt="IntelliJ IDEA">&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" alt="Linux">&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python">
-
 </div>
 
 <br>
@@ -98,15 +78,13 @@ A custom Minecraft 1.8.9 client project with its own core systems, UI, networkin
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=averagekar\&show_icons=true\&hide_border=true\&theme=transparent)](https://github.com/averagekar)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=averagekar\&show_icons=true\&hide_border=true\&theme=transparent)
 
-  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=averagekar\&layout=compact\&hide_border=true\&theme=transparent\&langs_count=6)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=averagekar\&layout=compact\&hide_border=true\&theme=transparent\&langs_count=6)](https://github.com/averagekar)
+<br>
 
-<br><br>
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=averagekar\&theme=transparent\&hide_border=true\&border_radius=10)](https://github.com/averagekar)
+![GitHub Streak](https://streak-stats.demolab.com/?user=averagekar\&theme=transparent\&hide_border=true\&border_radius=10)
 
 </div>
 
@@ -115,9 +93,7 @@ A custom Minecraft 1.8.9 client project with its own core systems, UI, networkin
 <div align="center">
 
 [![Repositories](https://img.shields.io/badge/Repositories-161616?style=flat-square\&logo=github\&logoColor=white)](https://github.com/averagekar?tab=repositories)
-
  
-
 [![Followers](https://img.shields.io/github/followers/averagekar?style=flat-square\&label=Followers\&color=161616\&logo=github\&logoColor=white)](https://github.com/averagekar?tab=followers)
 
 </div>
