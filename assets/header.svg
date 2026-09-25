@@ -1,356 +1,234 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-  width="1200"
-  height="430"
-  viewBox="0 0 1200 430">
-
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0B0C"/>
+      <stop offset="0.55" stop-color="#101012"/>
+      <stop offset="1" stop-color="#080809"/>
+    </linearGradient>
 
-```
-<linearGradient id="bg"
-                x1="0"
-                y1="0"
-                x2="1"
-                y2="1">
+    <radialGradient id="glow" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(920 70) rotate(115) scale(390 330)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.075"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
 
-  <stop offset="0%" stop-color="#0b0c0f"/>
-  <stop offset="100%" stop-color="#111318"/>
+    <linearGradient id="line" x1="90" y1="0" x2="1080" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="0.82" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
 
-</linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
 
-<linearGradient id="fade"
-                x1="0"
-                y1="0"
-                x2="1"
-                y2="0">
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.018"/>
+    </pattern>
 
-  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
-  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <style>
+      .display {
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                     Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        letter-spacing: -2px;
+      }
 
-</linearGradient>
+      .label {
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                     Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        letter-spacing: 2.4px;
+      }
 
-<radialGradient id="halo"
-                cx="80%"
-                cy="50%"
-                r="45%">
+      .body {
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                     Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+      }
 
-  <stop offset="0%"
-        stop-color="#ffffff"
-        stop-opacity="0.055"/>
-
-  <stop offset="100%"
-        stop-color="#ffffff"
-        stop-opacity="0"/>
-
-</radialGradient>
-
-<filter id="blur">
-  <feGaussianBlur stdDeviation="24"/>
-</filter>
-```
-
+      .mono {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        letter-spacing: 1px;
+      }
+    </style>
   </defs>
 
-  <!-- background -->
+  <!-- Background -->
+  <rect width="1200" height="420" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="420" rx="18" fill="url(#glow)"/>
 
-<rect width="1200"
-     height="430"
-     rx="14"
-     fill="url(#bg)"/>
+  <!-- Subtle atmosphere -->
+  <ellipse
+    cx="930"
+    cy="90"
+    rx="260"
+    ry="150"
+    fill="#FFFFFF"
+    fill-opacity="0.025"
+    filter="url(#soft)"
+  />
 
-  <!-- subtle atmosphere -->
+  <!-- Outer frame -->
+  <rect
+    x="0.75"
+    y="0.75"
+    width="1198.5"
+    height="418.5"
+    rx="17.25"
+    stroke="#FFFFFF"
+    stroke-opacity="0.09"
+  />
 
-<rect width="1200"
-     height="430"
-     rx="14"
-     fill="url(#halo)"/>
-
-<ellipse cx="960"
-        cy="215"
-        rx="210"
-        ry="150"
-        fill="#ffffff"
-        opacity="0.025"
-        filter="url(#blur)"/>
-
-  <!-- tiny editorial grid -->
-
-  <g opacity="0.035">
-
-```
-<path d="M0 80 H1200"/>
-<path d="M0 160 H1200"/>
-<path d="M0 240 H1200"/>
-<path d="M0 320 H1200"/>
-
-<path d="M120 0 V430"/>
-<path d="M240 0 V430"/>
-<path d="M360 0 V430"/>
-<path d="M480 0 V430"/>
-<path d="M600 0 V430"/>
-<path d="M720 0 V430"/>
-<path d="M840 0 V430"/>
-<path d="M960 0 V430"/>
-<path d="M1080 0 V430"/>
-```
-
-  </g>
-
-  <!-- top label -->
-
-<text x="64"
-     y="54"
-     fill="#686e78"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="10"
-     letter-spacing="4">
-
-```
-AVERAGEKXR / 2026
-```
-
+  <!-- Top micro label -->
+  <text
+    x="72"
+    y="62"
+    class="label"
+    font-size="10"
+    fill="#FFFFFF"
+    fill-opacity="0.42">
+    INDEPENDENT SOFTWARE DEVELOPER
   </text>
 
-  <!-- main name -->
-
-<text x="64"
-     y="178"
-     fill="#f2f3f5"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="68"
-     font-weight="700"
-     letter-spacing="-3">
-
-```
-averagekxr
-
-<animate
-  attributeName="opacity"
-  from="0"
-  to="1"
-  dur="1.2s"
-  fill="freeze"/>
-```
-
+  <!-- Main identity -->
+  <text
+    x="70"
+    y="154"
+    class="display"
+    font-size="68"
+    fill="#FFFFFF">
+    AVERAGEKXR
   </text>
 
-  <!-- little rule -->
-
-<rect x="66"
-     y="198"
-     width="42"
-     height="2"
-     fill="#d9dde3">
-
-```
-<animate
-  attributeName="width"
-  from="0"
-  to="42"
-  dur="0.8s"
-  fill="freeze"/>
-```
-
-  </rect>
-
-  <!-- description -->
-
-<text x="64"
-     y="232"
-     fill="#8b919b"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="15"
-     letter-spacing="0.7">
-
-```
-java · minecraft · networking
-```
-
+  <text
+    x="73"
+    y="188"
+    class="body"
+    font-size="15"
+    fill="#FFFFFF"
+    fill-opacity="0.42">
+    Java · Minecraft · Networking · Infrastructure
   </text>
 
-  <!-- current -->
+  <!-- Divider -->
+  <rect
+    x="72"
+    y="224"
+    width="1056"
+    height="1"
+    fill="url(#line)"
+  />
 
-<text x="64"
-     y="291"
-     fill="#555b64"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="9"
-     letter-spacing="3">
-
-```
-CURRENTLY
-```
-
+  <!-- Project -->
+  <text
+    x="72"
+    y="266"
+    class="label"
+    font-size="9"
+    fill="#FFFFFF"
+    fill-opacity="0.32">
+    CURRENT PROJECT
   </text>
 
-<text x="64"
-     y="318"
-     fill="#dfe2e6"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="22"
-     font-weight="600">
-
-```
-building NovaSpigot
-```
-
+  <text
+    x="72"
+    y="301"
+    class="display"
+    font-size="29"
+    letter-spacing="-0.8"
+    fill="#FFFFFF">
+    NOVASPIGOT
   </text>
 
-  <!-- bottom metadata -->
-
-<text x="64"
-     y="370"
-     fill="#555b64"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="9"
-     letter-spacing="2">
-
-```
-SERVER
-```
-
+  <text
+    x="72"
+    y="328"
+    class="body"
+    font-size="13"
+    fill="#FFFFFF"
+    fill-opacity="0.43">
+    A custom 1.8.x server fork focused on networking,
   </text>
 
-<text x="64"
-     y="389"
-     fill="#9298a1"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="11">
-
-```
-1.8.x
-```
-
+  <text
+    x="72"
+    y="348"
+    class="body"
+    font-size="13"
+    fill="#FFFFFF"
+    fill-opacity="0.43">
+    performance and long-term infrastructure.
   </text>
 
-<text x="145"
-     y="370"
-     fill="#555b64"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="9"
-     letter-spacing="2">
-
-```
-CLIENT
-```
-
+  <!-- Right-side index -->
+  <text
+    x="1080"
+    y="270"
+    text-anchor="end"
+    class="mono"
+    font-size="10"
+    fill="#FFFFFF"
+    fill-opacity="0.25">
+    01
   </text>
 
-<text x="145"
-     y="389"
-     fill="#9298a1"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="11">
-
-```
-1.8.9
-```
-
+  <text
+    x="1080"
+    y="303"
+    text-anchor="end"
+    class="mono"
+    font-size="10"
+    fill="#FFFFFF"
+    fill-opacity="0.25">
+    JAVA
   </text>
 
-<text x="226"
-     y="370"
-     fill="#555b64"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="9"
-     letter-spacing="2">
-
-```
-STACK
-```
-
+  <text
+    x="1080"
+    y="326"
+    text-anchor="end"
+    class="mono"
+    font-size="10"
+    fill="#FFFFFF"
+    fill-opacity="0.25">
+    NETTY
   </text>
 
-<text x="226"
-     y="389"
-     fill="#9298a1"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="11">
-
-```
-JAVA / NETTY
-```
-
+  <text
+    x="1080"
+    y="349"
+    text-anchor="end"
+    class="mono"
+    font-size="10"
+    fill="#FFFFFF"
+    fill-opacity="0.25">
+    GRADLE
   </text>
 
-  <!-- separator -->
-
-<line x1="570"
-     y1="48"
-     x2="570"
-     y2="382"
-     stroke="#ffffff"
-     stroke-opacity="0.06"/>
-
-  <!-- anime image -->
-
-<image href="anime.svg"
-      x="650"
-      y="20"
-      width="500"
-      height="390"
-      preserveAspectRatio="xMidYMid meet"
-      opacity="0">
-
-```
-<animate
-  attributeName="opacity"
-  from="0"
-  to="1"
-  dur="1.8s"
-  begin="0.4s"
-  fill="freeze"/>
-```
-
-  </image>
-
-  <!-- image side decoration -->
-
-<line x1="625"
-     y1="88"
-     x2="625"
-     y2="340"
-     stroke="#ffffff"
-     stroke-opacity="0.08"/>
-
-<text x="615"
-     y="78"
-     text-anchor="end"
-     fill="#4f555e"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="8"
-     letter-spacing="2">
-
-```
-01
-```
-
+  <!-- Footer -->
+  <text
+    x="72"
+    y="388"
+    class="mono"
+    font-size="9"
+    fill="#FFFFFF"
+    fill-opacity="0.23">
+    AVERAGEKAR · 2026
   </text>
 
-  <!-- footer -->
-
-<text x="1135"
-     y="395"
-     text-anchor="end"
-     fill="#4f555e"
-     font-family="Arial, Helvetica, sans-serif"
-     font-size="9"
-     letter-spacing="2">
-
-```
-BUILD / BREAK / REBUILD
-```
-
+  <text
+    x="1128"
+    y="388"
+    text-anchor="end"
+    class="mono"
+    font-size="9"
+    fill="#FFFFFF"
+    fill-opacity="0.23">
+    BUILD · EXPLORE · REBUILD
   </text>
-
-  <!-- border -->
-
-<rect x="0.5"
-     y="0.5"
-     width="1199"
-     height="429"
-     rx="14"
-     fill="none"
-     stroke="#ffffff"
-     stroke-opacity="0.065"/>
-
 </svg>
