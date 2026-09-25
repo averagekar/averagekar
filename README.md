@@ -1,38 +1,30 @@
 <div align="center">
 
-![averagekxr](./assets/header.svg)
+<img src="./assets/header.svg" alt="averagekxr" width="100%">
 
 <br>
 
-`java` · `minecraft` · `networking`
+<sub>building things I actually want to exist.</sub>
 
 </div>
 
 <br>
 
-## projects
+### projects
 
 **NovaSpigot**
-PandaSpigot-based Minecraft server fork focused on server infrastructure and networking.
+Minecraft server fork — networking, infrastructure and server-side systems.
 
-`Java` `Netty` `Gradle` `Minecraft 1.8.x`
-
-<br>
+`Java` `Netty` `Gradle`
 
 **NovaBound**
-Custom Minecraft 1.8.9 client project.
+Minecraft 1.8.9 client — custom client architecture and systems.
 
-`Java` `MCP` `Minecraft 1.8.9`
+`Java` `MCP`
 
 <br>
 
 <div align="center">
-
----
-
-*building systems, not just projects.*
-
-<br>
 
 `averagekxr`
 
