@@ -78,22 +78,10 @@ A custom Minecraft 1.8.9 client project with its own core systems, UI, networkin
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=averagekar\&show_icons=true\&hide_border=true\&theme=transparent)
+[![GitHub](https://img.shields.io/badge/GitHub-averagekar-161616?style=flat-square\&logo=github\&logoColor=white)](https://github.com/averagekar)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=averagekar\&layout=compact\&hide_border=true\&theme=transparent\&langs_count=6)
+[![Repositories](https://img.shields.io/badge/Repositories-View-161616?style=flat-square\&logo=github\&logoColor=white)](https://github.com/averagekar?tab=repositories)
 
-<br>
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=averagekar\&theme=transparent\&hide_border=true\&border_radius=10)
-
-</div>
-
-<br>
-
-<div align="center">
-
-[![Repositories](https://img.shields.io/badge/Repositories-161616?style=flat-square\&logo=github\&logoColor=white)](https://github.com/averagekar?tab=repositories)
- 
 [![Followers](https://img.shields.io/github/followers/averagekar?style=flat-square\&label=Followers\&color=161616\&logo=github\&logoColor=white)](https://github.com/averagekar?tab=followers)
 
 </div>
