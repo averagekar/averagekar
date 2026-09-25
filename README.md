@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="averagekxr" width="100%">
+<img src="./assets/header.svg" width="100%" alt="averagekxr">
 
-<br>
+<br><br>
 
 <sub>building things I actually want to exist.</sub>
 
@@ -10,22 +10,30 @@
 
 <br>
 
-### projects
+## Selected work
 
-**NovaSpigot**
-Minecraft server fork — networking, infrastructure and server-side systems.
+### NovaSpigot
 
-`Java` `Netty` `Gradle`
+A custom Minecraft 1.8.x server fork built on top of PandaSpigot.
 
-**NovaBound**
-Minecraft 1.8.9 client — custom client architecture and systems.
+Focused on network infrastructure, transport handling, performance, and a clean patch-based development workflow.
 
-`Java` `MCP`
+`Java` · `Netty` · `Gradle` · `Minecraft`
 
 <br>
 
+### NovaBound
+
+A custom Minecraft 1.8.9 client project with its own core systems, UI, networking and client infrastructure.
+
+`Java` · `MCP` · `OpenGL`
+
+<br><br>
+
+---
+
 <div align="center">
 
-`averagekxr`
+<sub>averagekxr · software, systems & experiments</sub>
 
 </div>
