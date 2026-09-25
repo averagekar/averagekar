@@ -4,64 +4,72 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=1200&color=8B949E&center=true&vCenter=true&width=700&lines=building+things+that+shouldn't+be+easy.;Minecraft+%2F+Java+%2F+networking;currently+working+on+NovaSpigot" alt="Typing">
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3500&pause=1800&color=8B949E&center=true&vCenter=true&width=520&height=30&lines=building+systems%2C+not+just+projects.;minecraft+%2F+java+%2F+networking"
+alt="averagekxr"
 
-<br><br>
+>
 
 </div>
 
-```text
-┌─ averagekxr@github ──────────────────────────────────────────────┐
-│                                                                  │
-│  focus      minecraft infrastructure                            │
-│  stack      java · netty · gradle · linux                       │
-│  currently  NovaSpigot                                           │
-│                                                                  │
-│  ↓ projects                                                       │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-### `projects/`
-
-**NovaSpigot**
-A PandaSpigot-based Minecraft 1.8.8 server fork focused on custom networking, transport infrastructure and server-side systems.
-
-[github.com/averagekar/NovaSpigot](https://github.com/averagekar/NovaSpigot?utm_source=chatgpt.com)
-
-**NovaBound**
-A custom Minecraft 1.8.9 client and the client-side counterpart of the Nova ecosystem.
-
-**KXRSS**
-A separate Minecraft 1.8.9 MCP project focused on client architecture and UI.
-
 <br>
 
-### `toolbox/`
+## `projects`
 
-`Java` · `Netty` · `Gradle` · `Git` · `Minecraft 1.8.x` · `Python`
+<table>
+<tr>
+<td width="50%">
 
-<br>
+### NovaSpigot
 
-```text
-[  currently  ]
+PandaSpigot-based Minecraft server fork.
 
-NovaSpigot
-├── network layer
-├── transport protocol
-├── server architecture
-└── performance / hardening
+`Java` `Netty` `1.8.x`
 
-status: building
-```
+</td>
+<td width="50%">
+
+### NovaBound
+
+Custom Minecraft 1.8.9 client project.
+
+`Java` `MCP` `1.8.9`
+
+</td>
+</tr>
+</table>
 
 <br>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=averagekxr&bg_color=0d1117&color=8b949e&line=58a6ff&point=c9d1d9&area=true&hide_border=true" width="96%">
+`java` · `netty` · `gradle` · `git` · `minecraft`
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=averagekxr&style=flat-square&color=161b22&label=PROFILE+VIEWS">
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=averagekxr&bg_color=0d1117&color=8b949e&line=6e7681&point=c9d1d9&area=true&hide_border=true"
+width="94%"
+alt="GitHub activity"
+
+>
+
+<br>
+
+<img
+src="https://komarev.com/ghpvc/?username=averagekxr&style=flat-square&color=21262d&label=views"
+alt="profile views"
+
+>
+
+</div>
+
+<br>
+
+> *make it work → understand it → make it better.*
+
+<div align="center">
+
+`averagekxr`
 
 </div>
