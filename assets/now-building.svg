@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 304" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="304" viewBox="0 0 1200 304" role="img" aria-labelledby="title desc">
   <title id="title">Now building: NovaBound</title>
   <desc id="desc">NovaBound component map. Launcher (desktop launcher) leads to Client (custom 1.8.9 client), which connects to NovaSpigot (PandaSpigot-based server kernel). Auth Service (identity service and short-lived tickets) also feeds NovaSpigot. Ops bot (Discord operations bot) is attached to NovaSpigot. All five components are active; repositories are private and in development.</desc>
 

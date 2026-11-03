@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
   <title id="title">Principles</title>
   <desc id="desc">Server-authoritative: the client is input, never truth. Patch-based: upstream stays untouched; every change is a reviewable patch. Ship complete: tests, docs and build scripts are part of the feature.</desc>
 
