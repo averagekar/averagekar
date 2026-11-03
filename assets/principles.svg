@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Principles</title>
+  <desc id="desc">Server-authoritative: the client is input, never truth. Patch-based: upstream stays untouched; every change is a reviewable patch. Ship complete: tests, docs and build scripts are part of the feature.</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+      .index { font-size: 13px; letter-spacing: 1px; fill: #A051A2; }
+      .head { font-size: 24px; font-weight: 700; fill: #D2D2D2; }
+      .body { font-size: 17px; fill: #8A8A8F; }
+    </style>
+    <clipPath id="card">
+      <rect width="1200" height="180" rx="16"/>
+    </clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0.5H0.5V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.02"/>
+    </pattern>
+  </defs>
+
+  <!-- Card -->
+  <g clip-path="url(#card)">
+    <rect width="1200" height="180" fill="#060305"/>
+    <rect width="1200" height="180" fill="url(#grid)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="179" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <!-- Index rules -->
+  <path d="M80 45.5H384M464 45.5H768M848 45.5H1152" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <!-- 01 -->
+  <text x="48" y="50" class="mono index">01</text>
+  <text x="48" y="90" class="sans head">Server-authoritative.</text>
+  <text class="sans body"><tspan x="48" y="123">The client is input,</tspan><tspan x="48" y="147">never truth.</tspan></text>
+
+  <!-- 02 -->
+  <text x="432" y="50" class="mono index">02</text>
+  <text x="432" y="90" class="sans head">Patch-based.</text>
+  <text class="sans body"><tspan x="432" y="123">Upstream stays untouched; every</tspan><tspan x="432" y="147">change is a reviewable patch.</tspan></text>
+
+  <!-- 03 -->
+  <text x="816" y="50" class="mono index">03</text>
+  <text x="816" y="90" class="sans head">Ship complete.</text>
+  <text class="sans body"><tspan x="816" y="123">Tests, docs and build scripts</tspan><tspan x="816" y="147">are part of the feature.</tspan></text>
+</svg>

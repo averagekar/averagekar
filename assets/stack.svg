@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 110" role="img" aria-labelledby="title desc">
+  <title id="title">Stack</title>
+  <desc id="desc">Java 17, Netty, Gradle, LWJGL/OpenGL, SQLite, TypeScript, Python, Git, Linux.</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+      .chip { fill: #0E0B10; stroke: #FFFFFF; stroke-opacity: 0.08; }
+    </style>
+    <clipPath id="card">
+      <rect width="1200" height="110" rx="16"/>
+    </clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0.5H0.5V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.02"/>
+    </pattern>
+  </defs>
+
+  <!-- Card -->
+  <g clip-path="url(#card)">
+    <rect width="1200" height="110" fill="#060305"/>
+    <rect width="1200" height="110" fill="url(#grid)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="109" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <!-- Chips: widths fit the widest fallback font plus 18 px padding -->
+  <g>
+    <rect class="chip" x="85.5" y="33.5" width="105" height="43" rx="10"/>
+    <rect class="chip" x="203.5" y="33.5" width="84" height="43" rx="10"/>
+    <rect class="chip" x="300.5" y="33.5" width="94" height="43" rx="10"/>
+    <rect class="chip" x="407.5" y="33.5" width="174" height="43" rx="10"/>
+    <rect class="chip" x="594.5" y="33.5" width="95" height="43" rx="10"/>
+    <rect class="chip" x="702.5" y="33.5" width="130" height="43" rx="10"/>
+    <rect class="chip" x="845.5" y="33.5" width="98" height="43" rx="10"/>
+    <rect class="chip" x="956.5" y="33.5" width="61" height="43" rx="10"/>
+    <rect class="chip" x="1030.5" y="33.5" width="84" height="43" rx="10"/>
+  </g>
+  <g class="sans" font-size="18" font-weight="500" fill="#D2D2D2" text-anchor="middle">
+    <text x="138" y="61">Java 17</text>
+    <text x="245.5" y="61">Netty</text>
+    <text x="347.5" y="61">Gradle</text>
+    <text x="494.5" y="61">LWJGL/OpenGL</text>
+    <text x="642" y="61">SQLite</text>
+    <text x="767.5" y="61">TypeScript</text>
+    <text x="894.5" y="61">Python</text>
+    <text x="987" y="61">Git</text>
+    <text x="1072.5" y="61">Linux</text>
+  </g>
+</svg>
