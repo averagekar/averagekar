@@ -1,97 +1,37 @@
-<div align="center">
+<img src="./assets/header.svg" width="100%" alt="AVERAGEKAR: independent developer building NovaBound. Java, Minecraft, networking and infrastructure.">
 
-<img src="./assets/header.svg" width="100%" alt="averagekar">
+### About
 
-<br><br>
+I'm a Java developer working on Minecraft infrastructure: clients, servers and the services that connect them.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono\&size=17\&duration=3000\&pause=900\&color=8B8B8B\&center=true\&vCenter=true\&width=560\&lines=Java+developer;Minecraft+infrastructure;Client+%26+server+development;Building+things+I+actually+want+to+exist.)](https://git.io/typing-svg)
+I build systems from the ground up and finish them: tested, documented and ready to ship.
 
-<br><br>
+### Now building
 
-![Profile Views](https://komarev.com/ghpvc/?username=averagekar\&label=PROFILE+VIEWS\&color=161616\&style=flat-square)
+<img src="./assets/now-building.svg" width="100%" alt="NovaBound: desktop launcher, then custom 1.8.9 client, then NovaSpigot server kernel, which also receives from the identity service. A Discord operations bot is attached to NovaSpigot.">
 
-</div>
+- [**Client & Launcher**](https://github.com/averagekar) — custom 1.8.9 client and its desktop launcher. *Private, in development.*
+- [**NovaSpigot**](https://github.com/averagekar) — PandaSpigot-based server kernel, built as patches. *Private, in development.*
+- [**Auth & Ops**](https://github.com/averagekar) — identity service with short-lived tickets, Discord ops bot. *Private, in development.*
 
-<br>
+### Selected work
 
-## About
+| Project | What it is | Built with | Status |
+| :-- | :-- | :-- | :-- |
+| **NovaBound** | Minecraft 1.8.9 ecosystem | Java 17 · Netty · LWJGL | Private |
+| **NovaSpigot** | PandaSpigot-based server kernel | Java · Netty · Gradle | Private |
+| [**BlockArchitect**](https://github.com/averagekar/blockarchitect) | Parametric voxel CAD / Minecraft architecture engine | Python · Three.js | Public |
 
-I'm a developer focused on **Java, Minecraft and software infrastructure**.
+### Stack
 
-I enjoy building systems from the ground up, experimenting with networking and performance, and turning ideas into complete projects.
+<img src="./assets/stack.svg" width="100%" alt="Stack: Java 17, Netty, Gradle, LWJGL/OpenGL, SQLite, TypeScript, Python, Git, Linux.">
 
-<br>
+### Principles
 
-## Selected work
+<img src="./assets/principles.svg" width="100%" alt="Principles. Server-authoritative: the client is input, never truth. Patch-based: upstream stays untouched; every change is a reviewable patch. Ship complete: tests, docs and build scripts are part of the feature.">
 
-### NovaSpigot
+### Contact
 
-A custom Minecraft 1.8.x server fork built on top of PandaSpigot.
-
-Focused on network infrastructure, transport handling, performance and a clean patch-based development workflow.
-
-`Java` · `Netty` · `Gradle` · `Minecraft`
-
-<br>
-
-### NovaBound
-
-A custom Minecraft 1.8.9 client project with its own core systems, UI, networking and client infrastructure.
-
-`Java` · `MCP` · `OpenGL`
-
-<br>
-
-## Technologies
-
-<div align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" alt="Java">&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" width="40" alt="Gradle">&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" alt="Git">&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" alt="GitHub">&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" alt="IntelliJ IDEA">&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" alt="Linux">&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python">
-</div>
-
-<br>
-
-<div align="center">
-
-`Java` · `Netty` · `Gradle` · `Git` · `Linux` · `OpenGL` · `Minecraft`
-
-</div>
-
-<br>
-
-## Discord
-
-<div align="center">
-
-[![Discord Presence](https://lanyard.cnrad.dev/api/667698138588381186?theme=dark\&bg=0D0D0E\&animated=true\&hideDiscrim=true\&borderRadius=10px)](https://discord.com/users/667698138588381186)
-
-</div>
-
-<br>
-
-## GitHub
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-averagekar-161616?style=flat-square\&logo=github\&logoColor=white)](https://github.com/averagekar)
-
-[![Repositories](https://img.shields.io/badge/Repositories-View-161616?style=flat-square\&logo=github\&logoColor=white)](https://github.com/averagekar?tab=repositories)
-
-[![Followers](https://img.shields.io/github/followers/averagekar?style=flat-square\&label=Followers\&color=161616\&logo=github\&logoColor=white)](https://github.com/averagekar?tab=followers)
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-<sub>averagekar · software, systems & experiments</sub>
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-averagekar-A051A2?style=flat-square&labelColor=0E0B10&logo=github&logoColor=white)](https://github.com/averagekar)
+[![Discord](https://img.shields.io/badge/Discord-averagekar-A051A2?style=flat-square&labelColor=0E0B10&logo=discord&logoColor=white)](https://discord.com/users/667698138588381186)
+[![Followers](https://img.shields.io/github/followers/averagekar?style=flat-square&color=A051A2&labelColor=0E0B10&logo=github&logoColor=white)](https://github.com/averagekar?tab=followers)
