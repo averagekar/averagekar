@@ -1,234 +1,74 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">AVERAGEKAR</title>
+  <desc id="desc">Independent developer building NovaBound. Java, Minecraft, networking and infrastructure. Rotating tagline: Building things I actually want to exist. Minecraft client and server development. Networking, performance, infrastructure. Ideas turned into complete projects.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B0B0C"/>
-      <stop offset="0.55" stop-color="#101012"/>
-      <stop offset="1" stop-color="#080809"/>
-    </linearGradient>
-
-    <radialGradient id="glow" cx="0" cy="0" r="1"
-      gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(920 70) rotate(115) scale(390 330)">
-      <stop stop-color="#FFFFFF" stop-opacity="0.075"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="line" x1="90" y1="0" x2="1080" y2="0">
-      <stop stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="0.18" stop-color="#FFFFFF" stop-opacity="0.16"/>
-      <stop offset="0.82" stop-color="#FFFFFF" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="32"/>
-    </filter>
-
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.018"/>
-    </pattern>
-
     <style>
-      .display {
-        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                     Helvetica, Arial, sans-serif;
-        font-weight: 700;
-        letter-spacing: -2px;
-      }
-
-      .label {
-        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                     Helvetica, Arial, sans-serif;
-        font-weight: 600;
-        letter-spacing: 2.4px;
-      }
-
-      .body {
-        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                     Helvetica, Arial, sans-serif;
-        font-weight: 400;
-        letter-spacing: 0.2px;
-      }
-
-      .mono {
-        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-        letter-spacing: 1px;
-      }
+      .sans { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+      .label { font-size: 12px; font-weight: 700; letter-spacing: 2px; }
     </style>
+    <clipPath id="card">
+      <rect width="1200" height="360" rx="16"/>
+    </clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0.5H0.5V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.02"/>
+    </pattern>
+    <radialGradient id="glow" cx="1000" cy="168" r="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A051A2" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#A051A2" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#A051A2" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="420" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="18" fill="url(#grid)"/>
-  <rect width="1200" height="420" rx="18" fill="url(#glow)"/>
+  <!-- Card -->
+  <g clip-path="url(#card)">
+    <rect width="1200" height="360" fill="#060305"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <rect width="1200" height="360" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
 
-  <!-- Subtle atmosphere -->
-  <ellipse
-    cx="930"
-    cy="90"
-    rx="260"
-    ry="150"
-    fill="#FFFFFF"
-    fill-opacity="0.025"
-    filter="url(#soft)"
-  />
+  <!-- Block motif: isometric cube, 4x4 face grid -->
+  <g fill="none" stroke="#FFFFFF" stroke-linejoin="round">
+    <path d="M1000 60L1093.53 114L1000 168L906.47 114Z" fill="#FFFFFF" fill-opacity="0.035" stroke="none"/>
+    <path d="M906.47 114L1000 168V276L906.47 222Z" fill="#FFFFFF" fill-opacity="0.018" stroke="none"/>
+    <path d="M1093.53 114L1000 168V276L1093.53 222Z" fill="#FFFFFF" fill-opacity="0.008" stroke="none"/>
+    <path stroke-opacity="0.05" d="M1023.38 73.5L929.85 127.5M1046.77 87L953.24 141M1070.15 100.5L976.62 154.5M976.62 73.5L1070.15 127.5M953.24 87L1046.77 141M929.85 100.5L1023.38 154.5M1070.15 127.5V235.5M1046.77 141V249M1023.38 154.5V262.5M1093.53 195L1000 249M1093.53 168L1000 222M1093.53 141L1000 195M929.85 127.5V235.5M953.24 141V249M976.62 154.5V262.5M906.47 195L1000 249M906.47 168L1000 222M906.47 141L1000 195"/>
+    <path stroke-opacity="0.16" d="M1000 60L1093.53 114V222L1000 276L906.47 222V114ZM906.47 114L1000 168L1093.53 114M1000 168V276"/>
+  </g>
 
-  <!-- Outer frame -->
-  <rect
-    x="0.75"
-    y="0.75"
-    width="1198.5"
-    height="418.5"
-    rx="17.25"
-    stroke="#FFFFFF"
-    stroke-opacity="0.09"
-  />
+  <!-- Top row -->
+  <text x="72" y="64" class="sans label" fill="#8A8A8F">JAVA &#183; MINECRAFT &#183; NETWORKING &#183; INFRASTRUCTURE</text>
+  <rect x="1120" y="55" width="8" height="8" fill="#D2D2D2"/>
 
-  <!-- Top micro label -->
-  <text
-    x="72"
-    y="62"
-    class="label"
-    font-size="10"
-    fill="#FFFFFF"
-    fill-opacity="0.42">
-    INDEPENDENT SOFTWARE DEVELOPER
-  </text>
+  <!-- Identity -->
+  <text x="69" y="170" class="sans" font-size="96" font-weight="700" letter-spacing="-1" fill="#D2D2D2">AVERAGEKAR</text>
+  <text x="72" y="218" class="sans" font-size="28" fill="#8A8A8F">Independent developer &#8212; building <tspan fill="#A051A2" font-weight="600">NovaBound</tspan>.</text>
 
-  <!-- Main identity -->
-  <text
-    x="70"
-    y="154"
-    class="display"
-    font-size="68"
-    fill="#FFFFFF">
-    AVERAGEKXR
-  </text>
-
-  <text
-    x="73"
-    y="188"
-    class="body"
-    font-size="15"
-    fill="#FFFFFF"
-    fill-opacity="0.42">
-    Java · Minecraft · Networking · Infrastructure
-  </text>
-
-  <!-- Divider -->
-  <rect
-    x="72"
-    y="224"
-    width="1056"
-    height="1"
-    fill="url(#line)"
-  />
-
-  <!-- Project -->
-  <text
-    x="72"
-    y="266"
-    class="label"
-    font-size="9"
-    fill="#FFFFFF"
-    fill-opacity="0.32">
-    CURRENT PROJECT
-  </text>
-
-  <text
-    x="72"
-    y="301"
-    class="display"
-    font-size="29"
-    letter-spacing="-0.8"
-    fill="#FFFFFF">
-    NOVASPIGOT
-  </text>
-
-  <text
-    x="72"
-    y="328"
-    class="body"
-    font-size="13"
-    fill="#FFFFFF"
-    fill-opacity="0.43">
-    A custom 1.8.x server fork focused on networking,
-  </text>
-
-  <text
-    x="72"
-    y="348"
-    class="body"
-    font-size="13"
-    fill="#FFFFFF"
-    fill-opacity="0.43">
-    performance and long-term infrastructure.
-  </text>
-
-  <!-- Right-side index -->
-  <text
-    x="1080"
-    y="270"
-    text-anchor="end"
-    class="mono"
-    font-size="10"
-    fill="#FFFFFF"
-    fill-opacity="0.25">
-    01
-  </text>
-
-  <text
-    x="1080"
-    y="303"
-    text-anchor="end"
-    class="mono"
-    font-size="10"
-    fill="#FFFFFF"
-    fill-opacity="0.25">
-    JAVA
-  </text>
-
-  <text
-    x="1080"
-    y="326"
-    text-anchor="end"
-    class="mono"
-    font-size="10"
-    fill="#FFFFFF"
-    fill-opacity="0.25">
-    NETTY
-  </text>
-
-  <text
-    x="1080"
-    y="349"
-    text-anchor="end"
-    class="mono"
-    font-size="10"
-    fill="#FFFFFF"
-    fill-opacity="0.25">
-    GRADLE
-  </text>
+  <!-- Rotating tagline: 4 lines x 3.2 s, opacity-only SMIL, no script -->
+  <text x="72" y="268" class="mono" font-size="22" fill="#8A8A8F">//</text>
+  <g class="mono" font-size="22" fill="#D2D2D2">
+    <text x="110" y="268">Building things I actually want to exist.<animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="1;1;0;0;1" keyTimes="0;0.203125;0.2265625;0.9765625;1"/></text>
+    <text x="110" y="268" opacity="0">Minecraft client &amp; server development.<animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2265625;0.25;0.453125;0.4765625;1"/></text>
+    <text x="110" y="268" opacity="0">Networking, performance, infrastructure.<animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4765625;0.5;0.703125;0.7265625;1"/></text>
+    <text x="110" y="268" opacity="0">Ideas turned into complete projects.<animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7265625;0.75;0.953125;0.9765625;1"/></text>
+  </g>
 
   <!-- Footer -->
-  <text
-    x="72"
-    y="388"
-    class="mono"
-    font-size="9"
-    fill="#FFFFFF"
-    fill-opacity="0.23">
-    AVERAGEKAR · 2026
-  </text>
-
-  <text
-    x="1128"
-    y="388"
-    text-anchor="end"
-    class="mono"
-    font-size="9"
-    fill="#FFFFFF"
-    fill-opacity="0.23">
-    BUILD · EXPLORE · REBUILD
-  </text>
+  <path d="M72 296.5H1128" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <g fill="#FFFFFF" fill-opacity="0.14">
+    <rect x="72" y="323" width="24" height="2" rx="1"/>
+    <rect x="102" y="323" width="24" height="2" rx="1"/>
+    <rect x="132" y="323" width="24" height="2" rx="1"/>
+    <rect x="162" y="323" width="24" height="2" rx="1"/>
+  </g>
+  <g fill="#A051A2">
+    <rect x="72" y="323" width="24" height="2" rx="1"><animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="1;1;0;0;1" keyTimes="0;0.203125;0.2265625;0.9765625;1"/></rect>
+    <rect x="102" y="323" width="24" height="2" rx="1" opacity="0"><animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2265625;0.25;0.453125;0.4765625;1"/></rect>
+    <rect x="132" y="323" width="24" height="2" rx="1" opacity="0"><animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4765625;0.5;0.703125;0.7265625;1"/></rect>
+    <rect x="162" y="323" width="24" height="2" rx="1" opacity="0"><animate attributeName="opacity" dur="12.8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.7265625;0.75;0.953125;0.9765625;1"/></rect>
+  </g>
+  <text x="1104" y="328" text-anchor="end" class="mono" font-size="12" letter-spacing="2" fill="#8A8A8F">BUILD &#183; EXPLORE &#183; REBUILD</text>
+  <path d="M1124 318V330M1119.5 325.5L1124 330L1128.5 325.5" fill="none" stroke="#8A8A8F" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
